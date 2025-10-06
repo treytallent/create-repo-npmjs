@@ -1,0 +1,22 @@
+{
+	"name": "bk-create-template-repo",
+	"version": "1.0.3",
+	"description": "This package makes it easy to initialise a new project using your organisation's template repositories. **Warning:** this package was vibe-coded.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/treytallent/create-repo-npmjs"
+	},
+	"license": "ISC",
+	"author": "Trey Tallent",
+	"type": "module",
+	"main": "create-repo.js",
+	"bin": {
+		"bk-create-repo": "./create-repo.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"inquirer": "^12.9.6"
+	}
+}
