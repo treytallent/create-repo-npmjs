@@ -9,14 +9,18 @@
 	"license": "ISC",
 	"author": "Trey Tallent",
 	"type": "module",
-	"main": "create-repo.js",
+	"main": "./dist/create-repo.js",
 	"bin": {
-		"bk-create-repo": "./create-repo.js"
+		"bk-create-repo": "./dist/create-repo.js"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node ./dist/create-repo.js"
 	},
 	"dependencies": {
-		"inquirer": "^12.9.6"
+		"inquirer": "^12.9.6",
+		"typescript": "^5.9.3"
+	},
+	"devDependencies": {
+		"@types/node": "^24.7.2"
 	}
 }

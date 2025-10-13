@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "nodenext",
+		"sourceMap": true,
+		"outDir": "dist",
+		"types": ["node"]
+	},
+	"files": ["src/create-repo.ts"]
+}
