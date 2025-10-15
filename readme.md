@@ -1,6 +1,6 @@
 # Overview
 
-This package makes it easy to initialise a new project using Blue Kelpie's template repositories. **Warning:** this package was vibe-coded.
+This package makes it easy to initialise a new project using Blue Kelpie's template repositories.
 
 ## Requirements
 
