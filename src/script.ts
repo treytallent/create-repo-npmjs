@@ -20,7 +20,7 @@ function runAndGet(cmd) {
 async function main() {
 	const cwd = process.cwd()
 
-	console.log("\n🚀Welcome to the Blue Kelpie Repository Initializer\n")
+	console.log("\n 🌉 The bridge between local WordPress and your organisation's Git \n")
 	console.log(
 		"\n ⚠️ Warning: If you select a template or existing repository to clone, its contents will override any existing files and folders with matching names. For example, cloning a template/existing repository that contains a 'plugins' folder will completely replace the existing 'plugins' folder in this site's wp-content. \n"
 	)

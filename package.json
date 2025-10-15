@@ -1,20 +1,20 @@
 {
-	"name": "bk-create-template-repo",
-	"version": "1.0.3",
-	"description": "This package makes it easy to initialise a new project using your organisation's template repositories. **Warning:** this package was vibe-coded.",
+	"name": "local-org-git-bridge",
+	"version": "2.0.0",
+	"description": "This package makes it easy to sync a LocalWP site with your organisation's Git.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/treytallent/create-repo-npmjs"
+		"url": "https://github.com/treytallent/local-org-git-bridge"
 	},
 	"license": "ISC",
 	"author": "Trey Tallent",
 	"type": "module",
-	"main": "./dist/create-repo.js",
+	"main": "./dist/script.js",
 	"bin": {
-		"bk-create-repo": "./dist/create-repo.js"
+		"create": "./dist/script.js"
 	},
 	"scripts": {
-		"start": "node ./dist/create-repo.js"
+		"start": "node ./dist/script.js"
 	},
 	"dependencies": {
 		"inquirer": "^12.9.6",
