@@ -52,7 +52,7 @@ async function main() {
         const templateRepos = await fetchRepos(true);
         const selectedTemplateName = await promptSelectRepo(templateRepos);
         createRepo(repoName, selectedTemplateName);
-        cloneRepo(selectedTemplateName);
+        cloneRepo(repoName);
     }
     async function prepareExistingRepo() {
         const nonTemplateRepos = await fetchRepos();
